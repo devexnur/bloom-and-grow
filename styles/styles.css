@@ -199,6 +199,7 @@ textarea {
   margin-bottom: 20px;
 }
 .submit {
+  height: 55px;
   display: block;
   width: 20%;
   margin: auto;
@@ -218,7 +219,7 @@ textarea {
   background: #111010;
   height: 300px;
   width: 100%;
-  }
+}
 .footer-title {
   color: #ffffff73;
   font-family: Lato;
