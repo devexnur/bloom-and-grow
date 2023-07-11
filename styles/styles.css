@@ -204,7 +204,7 @@
   justify-content: center;
 }
 
-.insta-img{
+.insta-img {
   border-radius: 8px;
 }
 
@@ -227,6 +227,7 @@
   margin-bottom: 20px;
 }
 .form {
+  border-radius: 8px;
   width: 80%;
   margin: auto;
   padding: 20px;
@@ -236,11 +237,17 @@ label {
   display: block;
   margin-bottom: 10px;
 }
-input,
-textarea {
+input {
+  height: 30px;
   width: 100%;
   margin-bottom: 20px;
 }
+
+textarea{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .submit {
   height: 55px;
   display: block;
@@ -286,8 +293,15 @@ textarea {
 
 .primary {
   color: #e55473;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
+}
+
+.primary-off {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 800;
 }
 
 .span {
