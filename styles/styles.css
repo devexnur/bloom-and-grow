@@ -194,6 +194,7 @@
 
 .hot-deals {
   width: 80%;
+  border-radius: 8px;
   /* margin: 128px 240px; */
   height: 400px;
   background-image: url("../assets/Rectangle 9.png");
@@ -201,6 +202,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.insta-img{
+  border-radius: 8px;
 }
 
 .contact-form {
@@ -220,7 +225,6 @@
   font-size: 30px;
   font-weight: 800;
   margin-bottom: 20px;
-
 }
 .form {
   width: 80%;
