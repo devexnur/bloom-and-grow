@@ -8,11 +8,13 @@
   background: rgba(229, 84, 115, 0.1);
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 100px;
   padding: 50px 240px 0px 240px;
 }
 
 .banner-title {
+  width: 600px;
   color: #272727;
   font-family: Lato;
   font-size: 55px;
@@ -36,6 +38,7 @@
   font-family: Lato;
   font-size: 18px;
   font-weight: 400;
+  width: 600px;
 }
 
 .banner-img {
@@ -55,7 +58,7 @@
   margin-bottom: 20px;
 }
 
-.card-img {
+.first-card-img {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   height: 500px;
@@ -65,12 +68,26 @@
   padding: 0 30px;
   margin-bottom: 32px;
 }
-
-.img-2 {
+.second-card-img {
   justify-content: center;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 30px;
+  margin-bottom: 32px;
 }
-.card-img img {
-  width: 310px;
+.third-card-img {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 30px;
+  margin-bottom: 32px;
 }
 
 .card-title {
@@ -154,13 +171,50 @@
   justify-content: center;
 }
 
+.contact-form {
+  background: rgba(229, 84, 115, 0.05);
+  margin: 50px 145px;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.form-title {
+  margin-bottom: 30px;
+  color: #e55473;
+  text-align: center;
+}
+.form {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.submit {
+  display: block;
+  width: 20%;
+  margin: auto;
+  background-color: #e55473;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 24px;
   text-align: center;
-  margin-top: 128px;
+  margin-top: 80px;
   background: #111010;
   height: 300px;
   width: 100%;
@@ -174,6 +228,8 @@
 
 .primary {
   color: #e55473;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .footer-desc {
