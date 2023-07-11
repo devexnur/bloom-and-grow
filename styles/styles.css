@@ -50,6 +50,23 @@
   margin: 100px auto;
 }
 
+.feature-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.feature-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .featured {
   width: 80%;
   display: flex;
@@ -123,12 +140,12 @@
   gap: 10%;
 }
 
-
 .social-title {
   color: #272727;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .social-desc {
@@ -158,6 +175,23 @@
   height: 55px;
 }
 
+.input-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.input-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .hot-deals {
   width: 80%;
   /* margin: 128px 240px; */
@@ -180,6 +214,13 @@
   margin-bottom: 30px;
   color: #e55473;
   text-align: center;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+
 }
 .form {
   width: 80%;
