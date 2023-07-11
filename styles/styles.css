@@ -232,6 +232,12 @@ textarea {
   font-weight: 400;
 }
 
+.special {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+
 .footer-desc {
   color: rgba(255, 255, 255, 0.9);
   font-family: Lato;
